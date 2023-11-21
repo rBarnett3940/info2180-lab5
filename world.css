@@ -1,1 +1,81 @@
 /* Add your own styles */
+html{
+    margin:auto;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    font-size:16px;
+    background-color: #f7f7f7;
+}
+header{
+    display:flex;
+    color:#ffff;
+    align-items: center;
+    padding:2% 25%;
+    margin-bottom:30px;
+    background-color: #122135;
+}
+
+img{
+    height:150px;
+    margin-right:20px;
+}
+
+
+input[type='search']{
+    font-size:16px;
+    width:50%;
+    padding:15px 7px;
+    border:solid 1px #cecece;
+    border-radius:5px;
+}
+
+
+#controls{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.button-container {
+    display: flex;
+}
+
+
+.button-container button {
+    padding: 10px;
+    margin: 5px;
+}
+
+#lookup{
+    background-color: #0aa188;
+}
+
+#cities{
+    background-color: #0a82d3;
+}
+
+button{
+    font-size:16px;
+    border:none;
+    padding:15px 100%;
+    margin:10px 10px;
+    border-radius:5px;
+    color:white;
+    font-weight:bold;
+}
+
+table{
+    border-collapse: collapse;
+    width: 75%;
+}
+td, th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
